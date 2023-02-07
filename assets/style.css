@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;900&family=Lato:ital,wght@0,400;1,300;1,400;1,700;1,900&family=Mulish:wght@300;400;1000&family=Poppins:wght@200;400;600;800&family=Unbounded:wght@200;400;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-cabecalho{
+    height: 50px;
+    width: auto;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;   
+    padding: 5px 50px 5px;
+    gap:10px;   
+}
+
+.menu {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.link-menu-esq{
+    margin-right: 500px;
+    cursor: pointer;
+}
+.link-menu-esq a{
+    margin: 15px;
+}
+.link-menu-dir{
+    margin-left: 500px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.link-menu-dir a:hover{
+    background-color: #dddddd;
+    box-sizing: 5px 50px 5px;
+}
+
+.link-menu-dir a{
+    margin:10px;
+}
